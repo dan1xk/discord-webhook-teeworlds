@@ -1,0 +1,26 @@
+{
+  "name": "discord-webhook-teeworlds",
+  "version": "1.0.0",
+  "description": "dan1xk",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "dev": "tsnd --respawn ./src",
+    "fix": "gts fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "gts": "^5.0.0",
+    "typescript": "~5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
